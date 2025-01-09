@@ -1,0 +1,37 @@
+.mainsection {
+    width: 100%;
+    /* margin-top: 0px; */
+  }
+  
+  .mainsection > :nth-child(1) {
+    margin-bottom: 2em;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 1.1em;
+    color: var(--clr-primary);
+  }
+  span {
+    color:rgb(107, 20, 220);
+    font-size: 3rem;
+}
+.vertical-timeline-element-date{
+  color:rgb(107, 20, 220);
+  /* opacity: 2; */
+}
+
+.section h2{
+    height:80px;
+    font-size: 3rem;
+    /* margin-top: 120px; */
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+  
+  

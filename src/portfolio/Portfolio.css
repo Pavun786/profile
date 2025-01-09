@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,400;0,500;0,600;1,300&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+
+.portfolio{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+   
+}
+.portfolio h2{
+    height:80px;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.portfolio h2 span {
+    color:rgb(107, 20, 220);
+    font-size: 3rem;
+}
+@media(max-width:600px){
+    .portfolio h2 {
+        font-size: 2.5rem;
+    }
+    .portfolio h2 span {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:300px){
+    .portfolio h2 {
+        font-size: 2rem;
+    }
+    .portfolio h2 span {
+        font-size: 2rem;
+    }
+}
+@media(max-width:240px){
+    .portfolio h2 {
+        font-size: 1.8rem;
+    }
+    .portfolio h2 span {
+        font-size: 1.8rem;
+    }
+}
+.project-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0.5rem 3.5rem;
+}
+.project-cards .card{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height:490px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 14px 15px ;
+    margin:5px;
+
+}
+.project-cards .card:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+.project-cards .card img{
+    width: 100%;
+    border-radius: 3px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom:15px;
+}
+.project-cards .card h3{
+    text-align: center;
+    font-size:23px;
+    margin-bottom:15px;
+    color:crimson;
+    color:#242d49;
+}
+.project-cards .card p{
+    text-align: center;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color:gray;
+    color: crimson;
+}
+.project-cards .card p span{
+    color:crimson;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.project-cards a{
+    color:#242d49;
+}
+.project-cards p{
+    color:silver;
+}
+.proj-description{
+    text-align:justify;
+    height:114px;
+    overflow-y: scroll;
+    font-size: 10px;
+}
+.proj-description::-webkit-scrollbar{
+    display: none;
+}
+.sourcecode-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+}
+.web-icon path{
+    color:crimson !important;
+    color:grey !important;
+}
+.web-icon:hover>path{
+    color:crimson !important;
+    transform: scale(0.92);
+}
+.ai-icon{
+    fill:crimson;
+    fill:grey;
+}
+.ai-icon:hover{
+    fill:crimson;
+    color: crimson;
+    transform: scale(0.92);
+}
+.sourcecode-icons i{
+    font-size: 25px;
+   
+    padding: 6px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+   
+    border: 1px solid silver;
+    color:grey;
+}
+
+.sourcecode-icons i:hover{
+    border: 2px solid silver;
+    color:#242d49;
+    border:1px solid #242d49;
+}
+
+.card-icons{
+    fill:red !important;
+    color:red !important;background-color: red;
+}

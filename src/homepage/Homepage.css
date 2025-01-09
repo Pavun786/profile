@@ -1,0 +1,325 @@
+.homepage{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #f5f6fa;
+    color:#242d49;
+    margin-bottom: 0px;
+}
+.homepage-content{
+    width:100vw;
+    margin: 0% 10%;
+    height:70%;
+    display: flex;
+}
+@media(max-width:620px){
+    .homepage-content{
+        margin: 0% 4%;
+    }
+}
+@media(max-width:450px){
+    .homepage-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        height: 85%;
+        /* background-color: whitesmoke; */
+        padding:10px 0px;
+        margin: 0px 40px;
+        border-radius: 5px;
+    }  
+    
+}
+
+
+
+.homepage-content-left{
+    flex:0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.homepage-content-left div{
+    font-size:3rem;
+    height:70px;
+}
+@media(max-width:450px){
+
+    .homepage-content-left{
+        width: 90%;
+        align-items: flex-start;
+    } 
+}
+.vaishnavi{
+    color:crimson !important;
+}
+.homepage-hireme-btn{
+    margin-top:1.5rem;
+    width:150%;
+}
+@media(max-width:1180px){
+    .homepage-content-left div{
+        font-size:2.5rem;
+        height:70px;
+    }
+    .homepage-hireme-btn{
+        margin-top:1.2rem;
+        width:150%;
+        font-size: 15px;
+    }
+}
+@media(max-width:980px){
+    .homepage-content-left div{
+        font-size:2rem;
+        height:60px;
+    }
+    .homepage-hireme-btn{
+        margin-top:1rem;
+        width:150%;
+        font-size: 14px;
+    }
+}
+@media(max-width:800px){
+    .homepage-content-left div{
+        font-size:1.5rem;
+        height:50px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.7rem;
+        width:150%;
+        font-size: 13px;
+    }
+}
+@media(max-width:525px){
+    .homepage-content-left div{
+        font-size:1.3rem;
+        height:40px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.5rem;
+        width:150%;
+        font-size: 12px;
+        padding:8px 23px 8px 23px;
+    }
+}
+@media(max-width:480px){
+    .homepage-content-left div{
+        font-size:1.3rem;
+        height:45px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.4rem;
+        width:150%;
+        font-size: 12px;
+        padding:6px 18px 6px 18px;
+    }
+}
+@media(max-width:450px){
+    .homepage-content-left div{
+        font-size:1.1rem;
+        height:30px;
+        margin-left: 50px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.4rem;
+        width:100%;
+        font-size: 12px;
+        padding:6px 18px 6px 18px;
+        margin-left: 50px;
+    }
+}
+@media(max-width:350px){
+    .homepage-content-left div{
+        font-size:1rem;
+        height:30px;
+        margin-left: 30px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.4rem;
+        width:100%;
+        font-size: 12px;
+        padding:6px 18px 6px 18px;
+        margin-left: 30px;
+    }
+}
+@media(max-width:300px){
+    .homepage-content-left div{
+        font-size:1rem;
+        height:27px;
+        margin-left: 10px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.4rem;
+        width:100%;
+        font-size: 12px;
+        padding:6px 18px 6px 18px;
+        margin-left: 10px;
+    }
+}
+@media(max-width:260px){
+    .homepage-content-left div{
+        font-size:1rem;
+        height:30px;
+        margin-left: 10px;
+    }
+    .homepage-hireme-btn{
+        margin-top:0.4rem;
+        width:100%;
+        font-size: 12px;
+        padding:6px 18px 6px 18px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.homepage-content-right{
+    flex:0.4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.background-circle{
+    position: relative;
+    width:250px;
+    height: 250px;
+    /* background-color:rgb(107, 20, 220); */
+    border-radius: 50%;
+    top:-40px;
+}
+.mypic{
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    width:280px;
+    height:auto;
+    right:100px;
+}
+@media(max-width:1400px){
+    .background-circle:hover {
+        cursor: pointer;
+        transition: all 0.9s;
+        width: 250px;
+        height: 230px;
+    }
+    .background-circle img:hover{ 
+        transition: all 0.9s;
+        transform: scale(1.01);
+    }
+}
+@media(max-width:1180px){
+    .background-circle{
+        width:230px;
+        height: 230px;
+    }
+    .mypic{
+        width:250px;
+        height:auto;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 230px;
+        height:210px;
+    }
+}
+@media(max-width:980px){
+    .background-circle{
+        width:210px;
+        height: 210px;
+    }
+    .mypic{
+        width:180px;
+        height:auto;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 210px;
+        height:190px;
+    }
+}
+@media(max-width:800px){
+    .background-circle{
+        width:190px;
+        height: 190px;
+    }
+    .mypic{
+        width:160px;
+        height:auto;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 190px;
+        height:170px;
+    }
+}
+@media(max-width:525px){
+    .background-circle{
+        width:170px;
+        height: 170px;
+    }
+    .mypic{
+        width:140px;
+        height:auto;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 170px;
+        height:150px;
+    }
+}
+@media(max-width:480px){
+    .background-circle{
+        width:150px;
+        height: 150px;
+    }
+    .mypic{
+        width:120px;
+        height:195px;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 150px;
+        height:130px;
+    }
+}
+@media(max-width:450px){
+    .background-circle{
+        width:200px;
+        height: 200px;
+    }
+    .mypic{
+        width:170px;
+        height:240px;
+        left:20px;
+    }
+    .background-circle:hover {
+        width: 200px;
+        height:180px;
+    }
+}
+
+
+
+
+
+@media(max-width:450px){
+    .homepage-content-left{
+        flex:0.4;
+        justify-content: flex-start;
+    }
+    .homepage-content-right{
+        flex:0.6;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
