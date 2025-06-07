@@ -81,7 +81,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          date={"Aug2023 - Nov2023"}
+          date={"Feb2024 - Apr2024"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid ",
@@ -120,7 +120,7 @@ export const Timeline = () => {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          date={"Oct2022 - Apr2023"}
+          date={"Oct2023 - Jul2024"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid ",
@@ -161,7 +161,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"Jan 2021 - sep 2022"}
+          date={"Jan 2021 - Nov 2023"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid ",
@@ -186,7 +186,7 @@ export const Timeline = () => {
             data-aos="fade-right"
             style={{ color: "rgb(107, 20, 220)" }}
           >
-            Sales Executive
+            Quality and Sales Executive
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
@@ -196,7 +196,7 @@ export const Timeline = () => {
             Sri Balaji Instruments, Tiruvannamalai
           </h4>
           <p data-aos="fade-right" style={{ color: darkMode ? "white" : "" }}>
-            My Role: Billing & Marketting our products
+            My Role: To Check the quality of incoming/outgoing products.and driving sales
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
